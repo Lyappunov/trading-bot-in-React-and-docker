@@ -1,0 +1,12 @@
+.container-charts{
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    top: -33px;
+    position: relative;
+
+    @media (max-width: 800px){
+        & {
+            grid-template-columns: none;
+        }
+    }
+}

@@ -1,0 +1,8 @@
+const dataSocketActionTypes = {
+    CONNECTION_SOCKET: "CONNECTION_SOCKET",
+    INIT_CHART: "INIT_CHART",
+    SET_DATA_SYMBOL_CHART: "SET_DATA_SYMBOL_CHART",
+    SOCKET_STATE_READY: "SOCKET_STATE_READY"
+};
+
+export default dataSocketActionTypes;
